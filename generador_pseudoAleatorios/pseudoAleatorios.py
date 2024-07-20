@@ -31,7 +31,7 @@ mod = 1073741821
 generador = GeneradorPseudoAleatorio(seed, multip, mod)
 
 
-randoms = [generador.siguiente() for _ in range(100000)]
+randoms = [generador.siguiente() for _ in range(10000)]
 
 df = pd.DataFrame(randoms, columns=['Nros PseudoAleatorios'])
 
